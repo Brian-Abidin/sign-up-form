@@ -5,11 +5,15 @@ body{
 }
 
 #wrapper{
-    width:600px;
-    margin: 0 auto;
+    height: 550px;
+    width: fit-content;
 }
 
 .header{
     background-color: grey;
- 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
