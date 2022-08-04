@@ -7,12 +7,22 @@ body{
     background-color: brown;
 }
 
+img{
+    
+}
+
+.wrapper{
+    display: flex;
+    
+    
+    
+}
+
 .header{
     height: 100vh;
     background-color: rgb(238, 231, 231);
-    margin-left: 30vw;
-    display: flex;
-    align-items: center;
+    
+    
 }
 
 
