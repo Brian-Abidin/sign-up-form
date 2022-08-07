@@ -28,14 +28,13 @@ img{
 
 .title{
     width: 40vw;
-    height: 10vh;
+    height: fit-content;
     background-color: rgba(0, 0, 0, 0.5) ;
     top: 25%;
     position: absolute;
     color: white;
     text-align: center;
     font-size: 50px;
-    
 }
 
 
