@@ -57,8 +57,23 @@ img{
     margin-top: 60px;
 }
 
-.name{
+.fname{
     padding-left: 2vw;
+    margin-bottom: -8px;
+    color: rgb(139, 138, 138);
+}
+
+.lname{
+    padding-top: 20px;
+    padding-left: 2vw;
+    margin-bottom: -8px;
+    color: rgb(139, 138, 138);
+}
+
+.lname1{
+    padding-left: 2vw;
+    margin-bottom: -8px;
+    color: rgb(139, 138, 138);
 }
 
 .first{
@@ -71,3 +86,4 @@ img{
     color:rgb(27, 27, 27);
     padding-bottom: 20px;
 }
+
