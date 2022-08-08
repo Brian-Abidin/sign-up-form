@@ -24,15 +24,14 @@ img{
 
 .header{
     height: 76vh;
-    background-color: rgb(238, 231, 231);
-    width: 58vw;
+    background-color: rgb(247, 244, 244);
+    width: 60vw;
     position: absolute;
     left: 40vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: larger;
     font-weight: bold;
     padding-top: 24vh;
-    padding-left: 2vw;
 }
 
 .title{
@@ -47,5 +46,28 @@ img{
     font-family: norse, sans-serif;
 }
 
+.header2{
+    padding-top: 20px;
+    padding-left: 2vw;
+}
 
+.form{
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
 
+.name{
+    padding-left: 2vw;
+}
+
+.first{
+    padding-left: 2vw;
+}
+
+.form1{
+    padding-left: 2vw;
+    font-size:x-large;
+    color:rgb(27, 27, 27);
+    padding-bottom: 20px;
+}
