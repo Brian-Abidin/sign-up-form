@@ -63,14 +63,14 @@ img{
     color: rgb(139, 138, 138);
 }
 
-.lname{
+.lname, .email{
     padding-top: 20px;
     padding-left: 2vw;
     margin-bottom: -8px;
     color: rgb(139, 138, 138);
 }
 
-.lname1{
+.lname1, .email1{
     padding-left: 2vw;
     margin-bottom: -8px;
     color: rgb(139, 138, 138);
