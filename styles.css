@@ -56,20 +56,19 @@ img{
     background-color: rgb(255, 255, 255);
     margin-top: 60px;
 }
-
+/*
 .fname{
     padding-left: 2vw;
     margin-bottom: -8px;
     color: rgb(139, 138, 138);
 }
-
-.pass, .email, .lname, .phone, .cpass{
-    padding-top: 20px;
-    padding-left: 2vw;
-    margin-bottom: -8px;
+*/
+.fname, .pass, .email, .lname, .phone, .cpass{
     color: rgb(139, 138, 138);
+    flex: 1 300px;
+    min-width: 0;
 }
-
+/*
 .pass1, .email1, .lname1, .phone1, .cpass1{
     padding-left: 2vw;
     margin-bottom: -8px;
@@ -80,15 +79,16 @@ img{
     padding-left: 2vw;
 }
 
-.form1{
+.formtitle{
     padding-left: 2vw;
     font-size:x-large;
     color:rgb(27, 27, 27);
     padding-bottom: 20px;
 }
+*/
 
 .wrapper-form{
-    height: 100vh;
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
-
