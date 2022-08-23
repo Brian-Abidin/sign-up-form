@@ -34,6 +34,10 @@ img{
     padding-top: 24vh;
 }
 
+.first{
+    margin-left: 2vw;
+}
+
 .title{
     width: 40vw;
     height: fit-content;
@@ -55,6 +59,7 @@ img{
     padding-top: 40px;
     background-color: rgb(255, 255, 255);
     margin-top: 60px;
+    height: fit-content;
 }
 /*
 .fname{
@@ -65,8 +70,7 @@ img{
 */
 .fname, .pass, .email, .lname, .phone, .cpass{
     color: rgb(139, 138, 138);
-    flex: 1 300px;
-    min-width: 0;
+    flex: 1 100px;
 }
 /*
 .pass1, .email1, .lname1, .phone1, .cpass1{
@@ -74,21 +78,28 @@ img{
     margin-bottom: -8px;
     color: rgb(139, 138, 138);
 }
-
-.first{
-    padding-left: 2vw;
-}
-
+*/
 .formtitle{
     padding-left: 2vw;
     font-size:x-large;
     color:rgb(27, 27, 27);
     padding-bottom: 20px;
 }
-*/
+
 
 .wrapper-form{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 20vw;
 }
+
+input{
+    width: 300px;
+    height: 30px;
+    font-size: larger;
+    margin-left: 10px;
+}
+
