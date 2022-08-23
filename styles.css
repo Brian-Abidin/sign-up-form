@@ -60,6 +60,8 @@ img{
     background-color: rgb(255, 255, 255);
     margin-top: 60px;
     height: fit-content;
+    box-shadow: 5px 10px 5px #acabab;
+    padding-bottom: 20px;
 }
 /*
 .fname{
@@ -70,7 +72,7 @@ img{
 */
 .fname, .pass, .email, .lname, .phone, .cpass{
     color: rgb(139, 138, 138);
-    flex: 1 100px;
+    flex: 0;
 }
 /*
 .pass1, .email1, .lname1, .phone1, .cpass1{
@@ -90,16 +92,13 @@ img{
 .wrapper-form{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     margin-left: 2vw;
     margin-right: 20vw;
 }
 
 input{
     width: 300px;
-    height: 30px;
-    font-size: larger;
-    margin-left: 10px;
+    height: 25px;
+    font-size: large;
 }
 
