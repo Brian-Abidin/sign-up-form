@@ -108,7 +108,7 @@ input{
     font-size: large;
 }
 
-button{
+.create{
     height: 50px;
     width: 250px;
     background-color: rgb(53, 141, 170);
