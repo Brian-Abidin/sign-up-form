@@ -14,8 +14,8 @@ body{
 
 img{
     width: 800px;
-    height: 1000px;
-    display: flex; 
+    height: 100vh;
+    
 }
 
 .wrapper{
@@ -24,7 +24,7 @@ img{
 }
 
 .header{
-    height: fit-content;
+    height: 76vh;
     background-color: rgb(247, 244, 244);
     width: 60vw;
     position: absolute;
@@ -109,11 +109,16 @@ input{
 }
 
 button{
-    height: 60px;
-    width: 200px;
-    background-color: green;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(53, 141, 170);
     margin-top: 25px;
     margin-left: 2vw;
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 4px;
 }
 
 .signin{
