@@ -9,21 +9,22 @@
 }
 
 body{
-    background-color: rgb(243, 0, 0);
+        background-color: red;
 }
 
 img{
-    width: 810px;
-    height: 100vh;
-    min-width: 700px;
+    width: 800px;
+    height: 1000px;
+    display: flex; 
 }
 
 .wrapper{
     display: flex;
+    height: max-content;
 }
 
 .header{
-    height: 76vh;
+    height: fit-content;
     background-color: rgb(247, 244, 244);
     width: 60vw;
     position: absolute;
@@ -99,12 +100,23 @@ img{
     margin-left: 2vw;
     margin-right: 20vw;
     justify-content: space-between;
-    
 }
 
 input{
     width: 300px;
     height: 25px;
     font-size: large;
-    
+}
+
+button{
+    height: 60px;
+    width: 200px;
+    background-color: green;
+    margin-top: 25px;
+    margin-left: 2vw;
+}
+
+.signin{
+    margin-top: 25px;
+    margin-left: 2vw;
 }
