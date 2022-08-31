@@ -15,7 +15,7 @@ body{
 
 img{
     width: 40vw;
-    height: 100vh;
+    height: 124vh;
 }
 
 .wrapper{
@@ -33,6 +33,7 @@ img{
     font-size: large;
     font-weight: bold;
     flex: 0;
+    padding-top: 24vh;
 }
 
 .first{
@@ -87,7 +88,8 @@ img{
 }
 
 input{
-    width: 300px;
+    width: 28vw;
+    max-width: 300px;
     height: 25px;
     font-size: large;
 }
