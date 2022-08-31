@@ -91,6 +91,7 @@ input{
     width: 28vw;
     max-width: 300px;
     height: 25px;
+    min-width: 250px;
     font-size: large;
 }
 
