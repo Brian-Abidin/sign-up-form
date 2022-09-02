@@ -113,8 +113,8 @@ input{
     margin-left: 2vw;
 }
 
-
-
 input:invalid {
     border-color: red;
 }
+
+
