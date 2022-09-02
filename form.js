@@ -15,3 +15,13 @@ console.log(entries)
 observer.observe(form)
 observer.observe(header)
 observer.observe(image)
+
+function verifyPassword(){
+    const password = document.querySelector("input[name=pass]");
+    const confirm = document.querySelector("input[name=cpass]");
+    if(password.value == confirm.value){
+        confirm.setCustomValidity('');
+    } else {
+        confirm.setCustomValidity('Passwords do not match');
+    }
+}
