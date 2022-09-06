@@ -9,13 +9,12 @@
 }
 
 body{
-    background-color: red;
     height: 100vh;
 }
 
 img{
     width: 40vw;
-    height: 100vh;
+    height: 76vh;
 }
 
 .wrapper{
@@ -97,7 +96,7 @@ input{
     font-size: large;
 }
 
-.create{
+#submitbtn{
     height: 50px;
     width: 250px;
     background-color: #596D48;
@@ -116,10 +115,11 @@ input{
 }
 
 input{
-    border-color: rgb(172, 179, 185);
     border-style:solid;
     border-radius: 5px;
     height: 30px;
 }
 
-
+form.submitted input:invalid{
+    border: 2px solid rgb(255, 0, 0);
+}
